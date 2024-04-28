@@ -1,0 +1,742 @@
+html body{
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: #F4F4F9;
+    background-image: url("../img/back.png");
+    background-size: 126%;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+
+
+header {
+    margin: 0 auto;
+    width: 1155px;
+    height: 35px;
+    font-size: 14px;
+    padding: 2.5px;  
+    color: #ffffff;
+    
+}   
+
+.bold {
+    font-weight: bold;
+
+}
+
+ .main-header .container  {
+    display: grid;
+    grid-template-columns: 82px 87px 75px 108px 105px 100px 86px 518.5px;
+    grid-template-areas: "date time bitcoin сurrency";
+    justify-content: left;
+    align-items: left;
+    box-sizing: border-box;
+    padding: 7.8px;
+    border-bottom: solid 1.2px rgb(125, 90, 144); 
+}
+
+
+.main-header .container .date {
+    letter-spacing: -0.85px;
+    margin-top: -1px;
+    margin-left: -0.8px;
+    font-weight: 400;
+}
+
+.main-header .container .time {
+    margin-top: -1px;
+    margin-left: -0.8px;
+    letter-spacing: -0.3px;
+    
+}
+
+.main-header .container .bitcoin {
+    margin-top: -2px;
+    margin-left: -4.4px;
+    letter-spacing: -1px;
+}
+
+.main-header .container .currency {
+    display: flex;
+    gap: 18.6px;
+    letter-spacing: 0.03px;
+    margin-top: -0.8px;
+
+}
+
+
+header .language {
+    display: flex;
+    margin-left: 705.1px;
+    margin-top: -1.5px;
+    gap: 3.1px;
+    letter-spacing: -3px;
+    
+}
+
+header .language > div:nth-child(-n+2) {
+    border-right: solid 1px white;
+    border-width: 2px;
+    max-height: 75%;
+}
+
+header .language > div button:hover {
+    display: block;
+    font-weight: bold; 
+
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+main {
+    margin: 0 auto;
+    width: 1150px;
+    height: 100px;
+    padding: 25px;
+    
+}
+
+main .container {
+    display: grid;
+    grid-template-areas: "logo pool btc-tab main-menu user-tab";
+    grid-template-columns: 80px 204px 151px 585px 95px;
+    justify-content: left;
+    align-items: left;
+    box-sizing: border-box;
+    color: #ffffff;
+    
+}
+
+main .logo {
+    margin-left: 4px;
+    margin-top: -5px;
+}
+
+main .pool {
+    font-size: 21px;
+    margin-left: -2.8px;
+    margin-top: 2.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    transform: translate(0, 0) scale(1.2, 1);
+    letter-spacing: 1.5px;
+}
+
+main .btc-tab .tab {
+    margin-left: -17px;
+    margin-top: -27px;
+}
+
+main .btc-icon {
+    margin-left: -5px;
+    margin-top: 7px;
+}
+
+main .btc-tab .name {
+    font-size: 12px;
+    margin-left: 23px;
+    margin-top: -30px;
+}
+
+main .btc-tab .polygon {
+    margin-left: 60px;
+    margin-top: -18px;
+}
+
+main .main-menu {
+    word-spacing: 30px;
+    margin-top: 5px;
+    margin-left: -13px;
+    letter-spacing: -0.1px;
+
+}
+
+
+main  a {
+    color: #ffffff; 
+    text-decoration-line: none;
+    
+    
+}
+
+main a:hover {
+    text-decoration-line: none;
+    border-bottom: solid 3px white;
+    padding-bottom: 9px;
+    
+}
+
+main .user-tab .name {
+    color:#5B45B4;
+    font-size: 14px;
+}
+
+main .user-tab .tab {
+    margin-left: -23px;
+    margin-top: -3px;
+}
+
+main .user-tab .icon {
+    margin-top: -29px;
+    margin-left: -13px;
+    width: 30px;
+    
+}
+
+main .user-tab .name {
+   margin-top: -19.5px;
+   margin-left: -41px;
+}
+
+main .user-tab .polygon {
+    margin-top: -19px;
+    margin-right: -90px;
+}
+
+main .main-text {
+    display: grid;
+    grid-area: "text img";
+    align-items: left;
+    justify-content: left;
+    box-sizing: border-box;
+    
+}
+
+main .main-text .text {
+    width: 610px;
+    margin-top: 130px;
+}
+
+main .main-text .text1 {
+    font-size: 29px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
+
+main .main-text .text2 {
+    width: 610px; 
+    font-size: 13px;
+    margin-top: 3px;
+    line-height: 24px;
+    letter-spacing: 0.85px;
+
+}
+
+main .main-text .registration {
+    color:#3c30c1;
+    font-size: 13px;
+    margin-top: -35px;
+    margin-left: 80px;
+    
+}
+
+main .main-text .polygon {
+    margin-left: 4px;
+    margin-top: 30px;
+}
+
+main .main-text .img {
+    margin-left: 601px;
+    margin-top: -387.3px;
+}
+
+content .container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-areas: "crypto-coin coin crypto-item ";
+    grid-row: 1;
+    gap: 0 35px;
+    
+   
+}
+
+content .crypto-coin  {
+    grid-area: crypto-coin;
+    margin-left: 187px;
+    
+}
+content .coin {
+    display: grid;
+    grid-area: coin;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 55px;          
+}
+
+content .crypto-coin .crypto-item {
+    border: 2px solid #8989aa37;
+    grid-area: crypto-item;
+    border-radius: 5px;
+    width: 346px;
+    height: 436px;
+    margin-top: 727px;  
+    margin-left: -200px;   
+}
+
+
+content .crypto-coin .crypto-item .analytics {
+    display: grid;
+    grid-area: analytics;
+    grid-template-areas: "bitcoin bitcoin-icon hash miners price-usd price-btc cash href";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 346px 436px;
+    grid-template:     
+        "bitcoin-icon" 40px
+        "bitcoin"
+        "hash" 40px
+        "miners" 40px
+        "price-usd" 40px
+        "price-btc" 40px
+        "cash" 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 14px;
+} 
+
+content .analytics .bitcoin-icon > .btc-icon {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: -69px;
+}
+
+content .analytics .bitcoin {
+    grid-area: bitcoin;
+    font-size: 24px;
+    margin-left: -25px;
+    margin-top: -25.5px;
+    letter-spacing: -0.15px;
+    
+}
+
+
+
+content .analytics .crypto-coin .crypto-item .bitcoin-icon {
+    grid-area: bitcoin-icon;
+    
+}
+
+
+
+content .analytics .hash {
+    grid-area: hash;
+    margin-top: 67px;
+    margin-left: -70px;
+    font-size: 14px;
+   line-height: 9px;
+}
+
+content .analytics .hash .bold {
+    font-size: 20px;
+}
+
+content .analytics .miners {
+    grid-area: miners;
+    margin-left: 83.5px;
+    font-size: 14px;
+    margin-top: -13px;
+    line-height: 9px;
+}  
+
+content .analytics .miners .bold {
+    font-size: 20px;
+}
+
+
+content .analytics .price-usd {
+    grid-area: price-usd;
+    font-size: 14px;
+    margin-left: 83px;
+    line-height: 9px;
+    margin-top: 23px;
+}
+
+content .analytics .price-usd .bold {
+    font-size: 20px;
+    margin-left: 2px;
+    letter-spacing: 1.4px;
+}
+
+content .analytics .price-btc {
+    grid-area: price-btc;
+    font-size: 14px;
+    margin-top: -57px;
+    margin-left: -69.5px;
+    line-height: 9px;
+}
+
+content .analytics .price-btc .bold {
+    font-size: 19.5px;
+    letter-spacing: -1px;
+}
+
+content .analytics .cash {
+    grid-area: cash;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: -69px;
+    line-height: 9px;
+}
+
+content .analytics .cash .bold {
+    font-size: 19px;
+    letter-spacing: 1px
+}
+
+content .href {
+    grid-area: href;
+    margin-left: 38px;
+    margin-top: -2px;
+    
+}
+
+content .href > a {
+font-size: 14px;
+font-weight: bold;
+text-decoration-line: none;
+color: #2F80ED;
+margin-left: -3px;
+
+}
+
+content .href .button1 {
+    margin-left: -3px;
+    margin-top: 31px;
+}
+content  .href .a1  {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 86px;
+    margin-top: -34px;
+}
+
+content  .href .button2 {
+    margin-top: -28px;
+    margin-left: -3px;
+}
+
+content  .href .a2 {
+    font-size: 14px;
+    color: #5B45B4;
+    margin-top: 37px;
+    margin-left: 114px;
+    
+}
+
+content  .crypto-coin .crypto-item .analytics1 {
+    display: grid;
+    grid-area: analytics1;
+    grid-template-areas: "litecoin litecoin-icon hash miners price-usd price-btc cash href1";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 346px 436px;
+    grid-template:     
+        "litecoin-icon" 40px
+        "litecoin"
+        "hash" 40px
+        "miners" 40px
+        "price-usd" 40px
+        "price-btc" 40px
+        "cash" 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 14px;
+} 
+
+content .analytics1 .litecoin-icon > .ltc-icon {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: -64.1px;
+}
+
+content .analytics1 .litecoin {
+    grid-area: litecoin;
+    font-size: 24px;
+    margin-left: -21px;
+    margin-top: -25.5px;
+    
+    
+}
+
+
+
+content .analytics1 .crypto-coin .crypto-item .litecoin-icon {
+    grid-area: litecoin-icon;
+    
+}
+
+
+
+content .analytics1 .hash {
+    grid-area: hash;
+    margin-top: 67px;
+    margin-left: -64px;
+    font-size: 14px;
+   line-height: 9px;
+}
+
+content .analytics1 .hash .bold {
+    font-size: 20px;
+    margin-left: -1px;;
+}
+
+content .analytics1 .miners {
+    grid-area: miners;
+    margin-left: 89.5px;
+    font-size: 14px;
+    margin-top: -13px;
+    line-height: 9px;
+}  
+
+content .analytics1 .miners .bold {
+    font-size: 20px;
+    margin-left: -1px;
+}
+
+
+content .analytics1 .price-usd {
+    grid-area: price-usd;
+    font-size: 14px;
+    margin-left: 89px;
+    line-height: 9px;
+    margin-top: 23px;
+}
+
+content .analytics1 .price-usd .bold {
+    font-size: 20px;
+    margin-left: px;
+    letter-spacing: 1.4px;
+}
+
+content .analytics1 .price-btc {
+    grid-area: price-btc;
+    font-size: 14px;
+    margin-top: -57px;
+    margin-left: -64.5px;
+    line-height: 9px;
+}
+
+content .analytics1 .price-btc .bold {
+    font-size: 19.5px;
+    letter-spacing: -1px;
+}
+
+content .analytics1 .cash {
+    grid-area: cash;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: -63px;
+    line-height: 9px;
+}
+
+content .analytics1 .cash .bold {
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-left: -1px;
+}
+
+content  .href1 .blue-text {
+    grid-area: href;
+    margin-left: 38px;
+    margin-top: -178px;
+    
+}
+
+content .href1 {
+    margin-top: -2px;
+}
+
+content  .href1 > a {
+font-size: 14px;
+font-weight: bold;
+text-decoration-line: none;
+color: #2F80ED;
+}
+
+content  .href1 .button1 {
+    margin-top: 31px;
+    margin-left: 38px;
+}
+
+content  .href1 .a1  {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 127px;
+    margin-top: -34px;
+}
+
+content  .href1 .button2 {
+    margin-top: -29px;
+    margin-left: 38px;
+}
+
+content  .href1 .a2 {
+    font-size: 14px;
+    color: #5B45B4;
+    margin-top: 37px;
+    margin-left: 155px;
+    
+}
+
+content  .crypto-coin .crypto-item .analytics2 {
+    display: grid;
+    grid-area: analytics2;
+    grid-template-areas: "dashcoin dashcoin-icon hash miners price-usd price-btc cash href2";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 346px 436px;
+    grid-template:     
+        "dash-icon" 40px
+        "dashcoin"
+        "hash" 40px
+        "miners" 40px
+        "price-usd" 40px
+        "price-btc" 40px
+        "cash" 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 14px;
+} 
+
+content .analytics2 .dash-icon > .dash-icon {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: -64.1px;
+}
+
+content .analytics2 .dashcoin {
+    grid-area: dashcoin;
+    font-size: 24px;
+    margin-left: -21px;
+    margin-top: -25.5px;
+    
+    
+}
+
+
+
+content .analytics2 .crypto-coin .crypto-item .dashcoin-icon {
+    grid-area: dash-icon;
+    
+}
+
+
+
+content .analytics2 .hash {
+    grid-area: hash;
+    margin-top: 67px;
+    margin-left: -64px;
+    font-size: 14px;
+   line-height: 9px;
+}
+
+content .analytics2 .hash .bold {
+    font-size: 20px;
+    margin-left: -1px;;
+}
+
+content .analytics2 .miners {
+    grid-area: miners;
+    margin-left: 89.5px;
+    font-size: 14px;
+    margin-top: -13px;
+    line-height: 9px;
+}  
+
+content .analytics2 .miners .bold {
+    font-size: 20px;
+    margin-left: -1px;
+}
+
+
+content .analytics2 .price-usd {
+    grid-area: price-usd;
+    font-size: 14px;
+    margin-left: 89px;
+    line-height: 9px;
+    margin-top: 23px;
+}
+
+content .analytics2 .price-usd .bold {
+    font-size: 20px;
+    margin-left: px;
+    letter-spacing: 1.4px;
+}
+
+content .analytics2 .price-btc {
+    grid-area: price-btc;
+    font-size: 14px;
+    margin-top: -57px;
+    margin-left: -64.5px;
+    line-height: 9px;
+}
+
+content .analytics2 .price-btc .bold {
+    font-size: 19.5px;
+    letter-spacing: -1px;
+}
+
+content .analytics2 .cash {
+    grid-area: cash;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: -63px;
+    line-height: 9px;
+}
+
+content .analytics2 .cash .bold {
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-left: -1px;
+}
+
+content  .href2 .blue-text {
+    grid-area: href;
+    margin-left: 38px;
+    margin-top: -178px;
+    
+}
+
+content .href2 {
+    margin-top: -2px;
+}
+
+content  .href2 > a {
+font-size: 14px;
+font-weight: bold;
+text-decoration-line: none;
+color: #2F80ED;
+}
+
+content  .href2 .button1 {
+    margin-top: 31px;
+    margin-left: 38px;
+}
+
+content  .href2 .a1  {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 127px;
+    margin-top: -34px;
+}
+
+content  .href2 .button2 {
+    margin-top: -29px;
+    margin-left: 38px;
+}
+
+content  .href2 .a2 {
+    font-size: 14px;
+    color: #5B45B4;
+    margin-top: 37px;
+    margin-left: 155px;
+    
+}
